@@ -15,7 +15,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: nikik3
-          outputs: dist/snake-dark.svg?color_snake=#ff0000&color_dots=#0d1117,#39d353
+          outputs: dist/snake-dark.svg?palette=custom&color_snake=#ff0000&color_dots=#0d1117,#39d353
 
       - name: Push Snake
         uses: crazy-max/ghaction-github-pages@v3
